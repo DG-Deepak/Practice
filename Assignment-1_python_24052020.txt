@@ -1,0 +1,54 @@
+#Assignment_1
+
+1) Create a list of your friends, print it on console, also print what type of data it is. (use list and type function)
+-->
+##############################################################
+Friend_List = ["Amit","Pravin","Sandesh","Shridhar","Vinayak"]
+
+print (Friend_List)
+print (type(Friend_List))
+##############################################################
+
+
+2) Create a tuple by Converting above list of your friends in tuple, print what type of data it is. (use tuple and type function)
+-->
+##############################################################
+Friend_List = ["Amit","Pravin","Sandesh","Shridhar","Vinayak"]
+
+Friend_Tuple = tuple(Friend_List)
+
+print (Friend_Tuple)
+print (type(Friend_Tuple))
+##############################################################
+
+
+3) Create a set by Converting above list of your friends in tuple, print what type of data it is. (use set and type function)
+-->
+##############################################################
+Friend_List = ["Amit","Pravin","Sandesh","Shridhar","Vinayak"]
+
+Friend_Tuple = tuple(Friend_List)
+
+Friend_Set = set({Friend_Tuple})
+
+print (Friend_Set)
+print (type(Friend_Set))
+#############################################################
+
+
+4) create 2 string variable num1 and num2, but each will contain a number, but if you check what type of data it is, it should show string type of data.
+   now try addition of num1 and num2, after that again try to addition of num1 and num2 but this time convert it to integer before addition. (do it yourself)
+-->
+#############################################################
+num1="10"
+num2="5"
+
+print (type(num1))
+print (type(num2))
+
+num3= num1 + num2
+print(num3)
+
+num4= int(num1) + int(num2)
+print(num4)
+#############################################################
